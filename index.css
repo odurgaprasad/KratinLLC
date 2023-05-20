@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url('https://ac-cdn.azureedge.net/infusionnewssiteimages/agingcare/7ba43360-0194-47e4-bd48-d689511ed832.jpg');
+    background-size: cover;
+}
+
+.calorie-image {
+    background-image: url('https://img.freepik.com/free-photo/high-angle-view-various-vegetables-black-background_23-2147917348.jpg');
+    background-size: cover;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', Sans-Serif;
+}
+
+.m-container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+
+}
+
+.content h1:hover {
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+
+
+@media (min-aspect-ratio:16/9) {
+    .back-video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio:16/9) {
+    .back-video {
+        width: auto;
+        height: 100%;
+    }
+}
+
+.inside-back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+@media (min-aspect-ratio:9/9) {
+    .inside-back-video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio:9/9) {
+    .inside-back-video {
+        width: auto;
+        height: 100%;
+    }
+}
+
+.diet-plane {
+    background-image: linear-gradient(to left, #c2bd8d, #dbcc27, #211f04);
+    height: auto;
+}
+
+.small-des {
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: green;
+}
+
+.modal-description {
+    font-size: 20px;
+}
+
+.modal-image {
+    background-color: #a89e32;
+}
+
+
+
+
+
+#hero {
+    width: 100%;
+    height: 80vh;
+    background: url("./images/hero.jpg") center center;
+    background-size: cover;
+    position: relative;
+}
+
+#hero .container {
+    padding-top: 80px;
+}
+
+#hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+}
+
+#hero h2 {
+    color: #eee;
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.main-btn {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.main-btn:hover {
+    background: #11dbcf;
+    border: 2px solid #11dbcf;
+    text-decoration: none;
+    color: #fff;
+}
+
+.form-group .btn-form {
+    background: #11dbcf;
+    border: 2px solid #11dbcf;
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+
+
+.diet-list {
+    list-style-type: none;
+}
+
+.meal-heading {
+    font-weight: bold;
+}
+
+.bg-modal-body {
+    background-color: #c1f7cf;
+}
+
+.diet-heading {
+    color: white;
+    font-family: Roboto;
+    font-weight: 800;
+    text-align: center;
+}
+
+.diet-section {
+    background-image: linear-gradient(to right, #3b87b3, #81a19b);
+    padding: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.p-name {
+    display: inline-block;
+    font-size: 20px;
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+form {
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+input[type="number"],
+select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+input[type="number"][readonly] {
+    background-color: #ddd;
+}
+
+.Doctor-app {
+    background-image: url("https://media.istockphoto.com/id/927474634/photo/top-view-of-stethoscope-and-calendar-on-the-green-background-schedule-to-check-up-healthy.jpg?s=612x612&w=0&k=20&c=YpJSHkAgNevKPlfvHpvctSJzUkQKgFYbF8mZj41Cd34=");
+    background-size: cover;
+    padding-top: 300px;
+    padding-left: 100px;
+    padding-bottom: 350px;
+    padding: 100px;
+}
+
+
+
+.Calorie-container {
+    background-image: url("https://thumbs.dreamstime.com/b/calories-counting-diet-food-control-weight-loss-concept-woman-using-calorie-counter-application-her-smartphone-calories-154675184.jpg");
+    background-size: cover;
+    height: 100vh;
+    padding: 30px 10px 30px 10px;
+
+}
+
+.col-head-1 {
+    background-image: url("https://c.ndtvimg.com/2020-07/tr0ulk2_carbs_625x300_31_July_20.jpg");
+    background-size: cover;
+
+}
+
+.footer_container {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer_section {
+    padding: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    width: 100vw;
+    font-size: 16px;
+}
+
+.footer_section * {
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+.row {
+    padding: 1em 1em;
+}
+
+.row.primary {
+    display: grid;
+    grid-template-columns: 3fr 2fr 4fr;
+    align-items: stretch;
+}
+
+.column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+    min-height: 15em;
+}
+
+.footer_heading {
+    width: 100%;
+    text-align: left;
+    color: white;
+    font-size: 1.4em;
+    white-space: nowrap;
+}
+
+.Un_ordered_elements {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+li:not(:first-child) {
+    margin-top: 0.8em;
+}
+
+.Un_ordered_elements li a {
+    color: #a7a7a7;
+    text-decoration: none;
+}
+
+.Un_ordered_elements li a:hover {
+    color: #c7940a;
+}
+
+.about p {
+    text-align: justify;
+    line-height: 2;
+    margin: 0;
+}
+
+.input,
+.button {
+    font-size: 1em;
+    padding: 1em;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.button {
+    background-color: #c7940a;
+    color: #ffffff;
+}
+
+div.social {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.4em;
+    flex-direction: row;
+    margin-top: 0.5em;
+}
+
+.social i {
+    color: #bac6d9;
+}
+
+.copyright {
+    padding: 0.3em 1em;
+    background-color: #25262e;
+}
+
+.footer-menu {
+    float: left;
+    margin-top: 10px;
+}
+
+.footer-menu a {
+    color: #cfd2d6;
+    padding: 6px;
+    text-decoration: none;
+}
+
+.footer-menu a:hover,
+.social i:hover {
+    color: #c7940a;
+}
+
+.copyright p {
+    font-size: 0.9em;
+    text-align: right;
+}
+
+@media screen and (max-width: 850px) {
+    .row.primary {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+body {
+    font-family: 'Maven Pro', sans-serif
+}
+
+body {
+    background-color: #eee
+}
+
+.add {
+    border-radius: 20px
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: all 1s;
+    cursor: pointer
+}
+
+.card:hover {
+    -webkit-box-shadow: 3px 5px 17px -4px #777777;
+    box-shadow: 3px 5px 17px -4px #777777
+}
+
+.ratings i {
+    color: green
+}
+
+.apointment button {
+    border-radius: 20px;
+    background-color: #eee;
+    color: #000;
+    border-color: #eee;
+    font-size: 13px
+}
