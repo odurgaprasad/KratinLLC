@@ -1,8 +1,8 @@
 # KratinLLC
 
-# The code provided is HTML markup for a webpage that includes a navigation bar and a section for a diet plan. The navigation bar contains links to different sections of the webpage, such as "Home," "Diet Plan," "Doctor's Appointment," "Calorie Calculator," and "About." It also includes a search form.
+ The code provided is HTML markup for a webpage that includes a navigation bar and a section for a diet plan. The navigation bar contains links to different sections of the webpage, such as "Home," "Diet Plan," "Doctor's Appointment," "Calorie Calculator," and "About." It also includes a search form.
 
-# The diet plan section includes cards for each day of the week, from Monday to Friday. Each card displays an image, a title for the day, a short description, and a "View More" link. Clicking on the "View More" link opens a modal window that provides a detailed diet plan for that particular day. The diet plan includes meals for breakfast, mid-morning snack, lunch, mid-afternoon snack, and dinner.
+ The diet plan section includes cards for each day of the week, from Monday to Friday. Each card displays an image, a title for the day, a short description, and a "View More" link. Clicking on the "View More" link opens a modal window that provides a detailed diet plan for that particular day. The diet plan includes meals for breakfast, mid-morning snack, lunch, mid-afternoon snack, and dinner.
 
 
 # Calorie Calculator:
