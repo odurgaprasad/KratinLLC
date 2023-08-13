@@ -7,7 +7,9 @@
     <meta href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
     <meta href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="index.css">
 </head>
@@ -17,8 +19,6 @@
 
     <div class="m-container bg-container" id="section1">
         <div>
-
-
             <nav class="navbar navbar-expand-lg navbar-dark text-dark fixed-top">
 
                 <img src="https://e1.pxfuel.com/desktop-wallpaper/51/428/desktop-wallpaper-medical-cross-symbol-png-hospital-logo.jpg" class="logo" />
@@ -30,19 +30,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link text-dark" href="#home">Home<span class="sr-only">(current)</span></a>
+                            <a class="nav-link text-dark hover-color" href="#home">Home</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link text-dark" href="#dietPlan">Diet Plan<span class="sr-only">(current)</span></a>
+                            <a class="nav-link text-dark hover-color" href="#dietPlan">Diet Plan<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#doctorAppointment">Doctor's Appointment</a>
+                            <a class="nav-link text-dark hover-color" href="#doctorAppointment">Doctor's Appointment</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#calorieCalculator">Calorie Calculator</a>
+                            <a class="nav-link text-dark hover-color" href="#calorieCalculator">Calorie Calculator</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#aboutPage">About</a>
+                            <a class="nav-link text-dark hover-color" href="#aboutPage">About</a>
                         </li>
 
                     </ul>
@@ -52,19 +52,22 @@
                     </form>
                 </div>
             </nav>
-
-
-            <div class="content">
-                <h1>LIVE A HEALTHER AND BETTER LIFE</h1>
-            </div>
         </div>
     </div>
+
+
+
+
+    <!-- Diet-section -->
 
     <div class="diet-section" id="dietPlan">
         <h1 class="diet-heading">Diet Plan</h1>
         <p class="diet-heading">“To ensure good health: eat lightly, breathe deeply, live moderately, cultivate cheerfulness and maintain an interest in life.”
             <br /> - William Londen
         </p>
+
+
+        <!-- Day-1 Monday -->
 
         <div class="days-diet-section p-5">
             <div class="card mb-3 mr-auto" style="max-width: 540px;">
@@ -75,37 +78,39 @@
                     <div class="col-md-8">
                         <div class="card-body">
                             <h5 class="card-title">Monday (Day 1)</h5>
-                            <p class="card-text">Your Monday morning thoughts set the tone for your whole week.</p>
-                            <a href="" data-toggle="modal" data-target="#mondayViewMoreSection">View More</a>
-                            <div class="modal" tabindex="-1" id="mondayViewMoreSection">
-                                <div class="modal-dialog">
-                                    <div class="modal-content bg-modal-body">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title">Monday Diet Plan</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <ul class="diet-list">
-                                                <li> <span class="meal-heading">Breakfast: </span>Oats with almond milk, fresh fruits, and nuts</li>
-                                                <li> <span class="meal-heading">Mid-morning snack: </span>Greek yogurt with berries and honey</li>
-                                                <li> <span class="meal-heading">Lunch: </span>Quinoa salad with roasted vegetables, chickpeas, and avocado</li>
-                                                <li> <span class="meal-heading"> Mid-afternoon snack: </span>Apple slices with almond butter</li>
-                                                <li> <span class="meal-heading">Dinner: </span>Baked sweet potato with mixed veggies and black beans</li>
-                                            </ul>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
+                            <p class="card-text">Your Monday morning thoughts set the tone for your whole week.</p>                                   
+                            <a href="" data-toggle="modal" data-target="#mondayViewMoreSection">
+                                View More
+                              </a>
+                            <div class="modal fade" id="mondayViewMoreSection" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Monday Diet Plan</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <ul class="diet-list">
+                                        <li> <span class="meal-heading">Breakfast: </span>Oats with almond milk, fresh fruits, and nuts</li>
+                                        <li> <span class="meal-heading">Mid-morning snack: </span>Greek yogurt with berries and honey</li>
+                                        <li> <span class="meal-heading">Lunch: </span>Quinoa salad with roasted vegetables, chickpeas, and avocado</li>
+                                        <li> <span class="meal-heading"> Mid-afternoon snack: </span>Apple slices with almond butter</li>
+                                        <li> <span class="meal-heading">Dinner: </span>Baked sweet potato with mixed veggies and black beans</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                 </div>
                             </div>
-
+                            </div>
+                          </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+
+            <!-- Day-2 Tuesday -->
 
             <div class="card mb-3 ml-auto" style="max-width: 540px;">
                 <div class="row no-gutters">
@@ -147,6 +152,9 @@
                 </div>
             </div>
 
+
+            <!-- Day-3 Wednesday -->
+
             <div class="card mb-3 mr-auto" style="max-width: 540px;">
                 <div class="row no-gutters">
                     <div class="col-md-4">
@@ -186,6 +194,9 @@
                     </div>
                 </div>
             </div>
+
+
+            <!-- Day-4 Thursday -->
 
             <div class="card mb-3 ml-auto" style="max-width: 540px;">
                 <div class="row no-gutters">
@@ -227,6 +238,9 @@
                 </div>
             </div>
 
+
+            <!-- Day-5 Friday -->
+
             <div class="card mb-3 mr-auto" style="max-width: 540px;">
                 <div class="row no-gutters">
                     <div class="col-md-4">
@@ -266,6 +280,9 @@
                     </div>
                 </div>
             </div>
+
+
+            <!-- Day-6 Saturday -->
 
             <div class="card mb-3 ml-auto" style="max-width: 540px;">
                 <div class="row no-gutters">
@@ -307,6 +324,9 @@
                 </div>
             </div>
 
+
+            <!-- Day-7 Sunday -->
+
             <div class="card mb-3 mr-auto" style="max-width: 540px;">
                 <div class="row no-gutters">
                     <div class="col-md-4">
@@ -346,8 +366,6 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
     </div>
 
@@ -387,6 +405,11 @@
                             <input type="number" id="calories" name="calories" readonly>
                         </form>
                     </div>
+
+
+
+
+
 
                     <div class="accordion pb-5 pt-5" id="accordionExample">
                         <div class="card">
@@ -485,7 +508,7 @@
         <div class="row g-2">
             <div class="col-md-3">
                 <div class="card p-2 py-3 text-center m-3">
-                    <div class="img mb-2"> <img src="https://i.imgur.com/LohyFIN.jpg" width="70" class="rounded-circle"/> </div>
+                    <div class="img mb-2"> <img src="https://th.bing.com/th/id/OIP.IVwf85npYYUcwRp4EIhqDgHaJm?pid=ImgDet&rs=1" width="70" class="rounded-circle"> </div>
                     <h5 class="mb-0">Patey Cruiser</h5> <small>Neurosurgeon</small>
                     <div class="ratings mt-2"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
                     <div class="mt-4 apointment"> <button class="btn btn-success text-uppercase">Book Appointment</button> </div>
@@ -493,7 +516,7 @@
             </div>
             <div class="col-md-3">
                 <div class="card p-2 py-3 text-center m-3">
-                    <div class="img mb-2"> <img src="https://i.imgur.com/o5uMfKo.jpg" width="70" class="rounded-circle"> </div>
+                    <div class="img mb-2"> <img src="https://th.bing.com/th/id/R.b0831a461107a205d0711c8f21137231?rik=%2fn1pIVzGUF%2fdEg&riu=http%3a%2f%2fdoctorwellsnaturalhealth.com%2fwp-content%2fuploads%2f2014%2f09%2fDr-Wells-dreamstime_xl_13011820.jpg&ehk=M3AdOuBK1d4Zgax2QQBpXkpOT3TPI%2bg4FNBguWtbKoY%3d&risl=1&pid=ImgRaw&r=0" width="70" class="rounded-circle"> </div>
                     <h5 class="mb-0">Mario Speedway</h5> <small>Cardiologist</small>
                     <div class="ratings mt-2"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
                     <div class="mt-4 apointment"> <button class="btn btn-success text-uppercase">Book Appointment</button> </div>
@@ -501,7 +524,7 @@
             </div>
             <div class="col-md-3">
                 <div class="card p-2 py-3 text-center m-3">
-                    <div class="img mb-2"> <img src="https://i.imgur.com/tmdHXOY.jpg" width="70" class="rounded-circle"> </div>
+                    <div class="img mb-2"> <img src="https://th.bing.com/th/id/OIP.YRMLniRRYMMwDDytblUv0wHaIH?pid=ImgDet&rs=1" width="70" class="rounded-circle"> </div>
                     <h5 class="mb-0">Anna Sthesia</h5> <small>Surgeon</small>
                     <div class="ratings mt-2"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
                     <div class="mt-4 apointment"> <button class="btn btn-success text-uppercase">Book Appointment</button> </div>
@@ -509,7 +532,7 @@
             </div>
             <div class="col-md-3">
                 <div class="card p-2 py-3 text-center m-3">
-                    <div class="img mb-2"> <img src="https://i.imgur.com/C4egmYM.jpg" width="70" class="rounded-circle"> </div>
+                    <div class="img mb-2"> <img src="https://th.bing.com/th/id/OIP.-MsEojNgYQCNTPbc2gz5gAHaHa?pid=ImgDet&rs=1" width="70" class="rounded-circle"> </div>
                     <h5 class="mb-0">Paul Moliv</h5> <small>Dentist</small>
                     <div class="ratings mt-2"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
                     <div class="mt-4 apointment"> <button class="btn btn-success text-uppercase">Book Appointment</button> </div>
@@ -517,7 +540,7 @@
             </div>
             <div class="col-md-3">
                 <div class="card p-2 py-3 text-center m-3">
-                    <div class="img mb-2"> <img src="https://i.imgur.com/0LKZQYM.jpg" width="70" class="rounded-circle"> </div>
+                    <div class="img mb-2"> <img src="https://mbbseducationabroad.in/wp-content/uploads/2019/10/lady-doctor-png-2.png" width="70" class="rounded-circle"> </div>
                     <h5 class="mb-0">Anna Maul</h5> <small>Eye Specialist</small>
                     <div class="ratings mt-2"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
                     <div class="mt-4 apointment"> <button class="btn btn-success text-uppercase">Book Appointment</button> </div>
@@ -525,7 +548,7 @@
             </div>
             <div class="col-md-3">
                 <div class="card p-2 py-3 text-center m-3">
-                    <div class="img mb-2"> <img src="https://i.imgur.com/ZSkeqnd.jpg" width="70" class="rounded-circle"> </div>
+                    <div class="img mb-2"> <img src="https://th.bing.com/th/id/OIP.ZV_uh_vhIH3nbgok1kAKYwHaKH?pid=ImgDet&w=622&h=850&rs=1" width="70" class="rounded-circle"> </div>
                     <h5 class="mb-0">Gail Forcewind</h5> <small>Urology</small>
                     <div class="ratings mt-2"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
                     <div class="mt-4 apointment"> <button class="btn btn-success text-uppercase">Book Appointment</button> </div>
@@ -533,7 +556,7 @@
             </div>
             <div class="col-md-3">
                 <div class="card p-2 py-3 text-center m-3">
-                    <div class="img mb-2"> <img src="https://i.imgur.com/MZm1LNz.jpg" width="70" class="rounded-circle"> </div>
+                    <div class="img mb-2"> <img src="https://th.bing.com/th/id/OIP.rzvJIIoK4rs7kpN44Q5YegHaE8?pid=ImgDet&rs=1" width="70" class="rounded-circle"/> </div>
                     <h5 class="mb-0">Patey Cruiser</h5> <small>Neurosurgeon</small>
                     <div class="ratings mt-2"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
                     <div class="mt-4 apointment"> <button class="btn btn-success text-uppercase">Book Appointment</button> </div>
@@ -541,7 +564,7 @@
             </div>
             <div class="col-md-3">
                 <div class="card p-2 py-3 text-center m-3">
-                    <div class="img mb-2"> <img src="https://i.imgur.com/HFpxxJz.jpg" width="70" class="rounded-circle"> </div>
+                    <div class="img mb-2"> <img src="https://th.bing.com/th/id/OIP.VH5OJnPsYcxvlzhI-tmQZwHaJ8?pid=ImgDet&w=643&h=863&rs=1" width="70" class="rounded-circle"> </div>
                     <h5 class="mb-0">Patey Cruiser</h5> <small>Neurosurgeon</small>
                     <div class="ratings mt-2"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
                     <div class="mt-4 apointment"> <button class="btn btn-success text-uppercase">Book Appointment</button> </div>

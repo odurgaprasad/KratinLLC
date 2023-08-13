@@ -9,19 +9,19 @@ function calculateCalories() {
 
     document.getElementById("calories").value = calories;
     // Validate the weight
-    if (weight === "" && typeof(weight) !== Number || 10 <= 80) {
+    if (weight === "" && typeof(weight) !== Number || 80>weight >10) {
         alert("Please fill in the correct details weight Kg's in 10 to 80kg");
         document.getElementById("calories").value = "";
         return false;
     }
 
-    if (height === "" || 80 < 200) {
+    if (height === "" || 200>height > 80) {
         alert("Please fill in the correct details height in 80 to 200cm");
         document.getElementById("calories").value = "";
         return false;
     }
 
-    if (age === "" || 1 < 80) {
+    if (age === "" || 80>age > 10) {
         alert("Please fill in the correct details age in 1 to 80");
         document.getElementById("calories").value = "";
         return false;
