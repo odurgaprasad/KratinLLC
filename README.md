@@ -25,8 +25,8 @@ Displays a list of doctors with their names, specialties, ratings, and a button 
 Provides information about the company "Kratin" and its mission.
 Includes contact information and social media links.
 
-**website Link** : kratinllcass.ccbp.tech
+**website Link** : https://kratinllcass.ccbp.tech/
 
-**screenshots drive file Link** : https://drive.google.com/drive/folders/1pjD-cPcgqRqdZjpC-3TQ8qJfyl_3EnVV?usp=sharing
+**screenshots and video drive file Link**:https://drive.google.com/drive/folders/1pjD-cPcgqRqdZjpC-3TQ8qJfyl_3EnVV?usp=sharing
 
 
